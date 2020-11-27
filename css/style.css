@@ -362,6 +362,7 @@ nav img {
         box-shadow: 0 -5px 20px rgb(110, 61, 110);
         position: sticky;
         top:0;
+        overflow: hidden;
     }
     
     .nav-links {
@@ -450,7 +451,8 @@ nav img {
     }
 
     .nav-active{
-        transform: translate(0)
+        transform: translate(0);
+        overflow: hidden;
     }
 
     @keyframes navLinkFade{
