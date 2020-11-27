@@ -188,10 +188,10 @@ nav img {
     
 
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 768px){
     
     body {
-        /* overflow: hidden; */
+       overflow: hidden;
         
        
 
@@ -348,8 +348,11 @@ nav img {
     
 }
 
-@media screen and (max-width: 422px){
+@media screen and (max-width: 480px){
     
+    body {
+        overflow: hidden;
+    }
   
     
     nav {
@@ -378,7 +381,7 @@ nav img {
         position: absolute;
         height: 92vh;
         top: 8vh;
-        background-color: rgba(58, 32, 58, 0.5);
+        background-color: rgba(58, 32, 58, 0.876);
         padding: 2vh 0 0 0;
         transform: translateX(100%);
         transition: transform .5s ease-in-out;
@@ -452,7 +455,7 @@ nav img {
 
     .nav-active{
         transform: translate(0);
-        overflow: hidden;
+        overflow: visible;
     }
 
     @keyframes navLinkFade{
