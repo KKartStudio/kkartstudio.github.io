@@ -190,21 +190,27 @@ nav img {
 
 @media screen and (max-width: 830px){
     
-    
+    body {
+        /* overflow: hidden; */
+        
+       
+
+    }
     
     nav {
         background-color: rgb(34, 34, 34);
-        width: 100%;
+        width: 100vw;
         height: 8vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
         box-shadow: 0 -5px 20px rgb(110, 61, 110);
         position: sticky;
-        top: 0;
+        overflow: hidden;
+       
     }
     
-    .nav-links {
+   .nav-links {
         width: 36vw;
         color: white;
         list-style: none;
@@ -222,6 +228,7 @@ nav img {
         transform: translateX(100%);
         transition: transform .5s ease-in-out;
         
+        
     }
     
     nav li {
@@ -235,6 +242,7 @@ nav img {
         opacity: 0;
         cursor: pointer;
         transition: transform 0.1s ease-in;
+        
     }
     
     li:hover {
@@ -264,7 +272,8 @@ nav img {
     }
 
     .nav-active{
-        transform: translate(0)
+        transform: translate(0);
+        overflow: visible;
     }
 
     @keyframes navLinkFade{
