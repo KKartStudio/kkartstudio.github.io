@@ -505,6 +505,9 @@ nav img {
 
     .box1 {
         background-color: none;
+        background-size: fill;
+        background-position: center;
+        max-width: 90vw; 
     }
 
     .box2 {
